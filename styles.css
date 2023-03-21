@@ -1,17 +1,57 @@
-* {
+/******************Element Selectors*******************/
+
+/* * {
     border: red 1px solid;
-}
+} */
 
 body {
+    font-family: 'Montserrat', serif;
     margin: 0;
-}
-
-div {
-    background-color: #CBE4DE;
-    color: #2C3333;
-    
+    text-align: center;
 }
 
 h1 {
-    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 65px;
+
 }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*********************Class Selectors********************/
+
+.top-container {
+    background-color: #2E4F4F;
+    color: #CBE4DE;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.middle-container {
+    background-color: #CBE4DE;
+    color: #2C3333;
+    padding-top: 25px;
+}
+
+
+/************************ID Selectors**********************/
